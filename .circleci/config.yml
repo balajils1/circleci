@@ -13,7 +13,7 @@ jobs:
           name: Configure JFrog Creds
           command: |
             ./jf c add kim \
-              --ARTIFACTORY_URL $ARTIFACTORY_URL \
+              --artifactory-url $ARTIFACTORY_URL \
               --user $ARTIFACTORY_USER \
               --password $ARTIFACTORY_APIKEY \
               --interactive=false
